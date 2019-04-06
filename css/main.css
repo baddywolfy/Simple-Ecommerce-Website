@@ -1,20 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
-* {box-sizing: border-box;}
 
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+
 nav {
   display: flex;
   flex-direction: row;
+
 }
 
+.wrapper {
+  width: 1190px;
+  margin: 0 auto;
+}
 
+nav > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
 
+.logo {
+  font-family: 'Lobster';
+  font-size: 49px;
+  display: inline-block;
+  width: 110px;
+  height: 44px;
+  position: relative;
+  top: -18px;
+}
 
+.logo a {
+  text-decoration: none;
+  color: #3cc3b5;
+}
+
+.basket-box {
+  position: relative;
+  top: -7px;
+}
+
+.categories {
+  background-color: #4ccfc1;
+    text-align: center;
+}
+
+.categories ul {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.categories ul li {
+  list-style: none;
+  padding: 11px auto 11px auto;
+}
+.categories ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue';
+  font-size: 21px;
+  font-weight: 400;
+
+}
 
 
 
@@ -26,8 +81,8 @@ nav {
 /* Search Form */
 form {
   position: relative;
-  width: 395px;
-  margin: 0 auto;
+  width: 480px;
+  display: inline-block;
 }
 input {
   width: 100%;
